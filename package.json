@@ -1,0 +1,20 @@
+{
+  "name": "bertbot",
+  "version": "0.0.1",
+  "description": "Webserver to control a private telegram bot",
+  "main": "bertbot.js",
+  "author": "Christopher Pfister",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node bertbot.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "@google-cloud/tasks": "^1.9.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "needle": "^2.3.3",
+    "yargs": "^15.3.1"
+  }
+}

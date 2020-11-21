@@ -1,0 +1,10 @@
+cron:
+- description: "message morning"
+  url: /cron/bot828706180:AAEmcLNNxpc766kVjm2KCbh2Nswue2JZXsI/morning
+  schedule: every day 6:00
+- description: "message night"
+  url: /cron/bot828706180:AAEmcLNNxpc766kVjm2KCbh2Nswue2JZXsI/night
+  schedule: every day 22:00
+- description: "random ernie"
+  url: /cron/bot828706180:AAEmcLNNxpc766kVjm2KCbh2Nswue2JZXsI/ernierand
+  schedule: every 3 hours
