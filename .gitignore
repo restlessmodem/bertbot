@@ -3,6 +3,7 @@
 keys/
 sunflowerGame.js
 .gcloudignore
+cron.yaml
 
 # Logs
 logs
